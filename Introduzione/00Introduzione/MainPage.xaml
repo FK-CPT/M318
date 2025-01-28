@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_00Introduzione.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                x:Name="imgName"
+                Margin="5"
+                Source="images.jfif"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                x:Name="lbName"
+                Margin="10"
+                HorizontalOptions="Center"
+                FontSize="Header"/>
+
+            <Label
+                HorizontalOptions="Center"
+                FontSize="Subtitle"
+                HorizontalTextAlignment="Center"
+                Text="Welcome to &#10;.NET Multi-platform App UI"/>
+
+            <Entry
+                x:Name="entName"
+                WidthRequest="200"
+                Background="Gray"
+                TextColor="DarkSlateBlue"
+                PlaceholderColor="Red"
+                Placeholder="Inserire il proprio nome"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Cliccami" 
+                HeightRequest="200"
+                WidthRequest="500"
+                Clicked="CounterBtn_Clicked"
+                HorizontalOptions="Fill"
+                Background="BlueViolet"
+                TextColor="WhiteSmoke"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
