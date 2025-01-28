@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00Introduzione", "00Introduzione\00Introduzione.csproj", "{3E2310BF-8E81-4D93-873F-C305116312AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Orologio", "02Orologio\02Orologio.csproj", "{47C05D1E-258A-455D-9DA5-CAE05B696E05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{3E2310BF-8E81-4D93-873F-C305116312AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2310BF-8E81-4D93-873F-C305116312AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E2310BF-8E81-4D93-873F-C305116312AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
