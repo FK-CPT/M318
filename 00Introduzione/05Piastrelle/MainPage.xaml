@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_05Piastrelle.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label
+                Padding="50"
+                HorizontalOptions="Center"
+                FontSize="Header"
+                Text="Calcolatore di Piastrelle"/>
+
+            <Line 
+                HorizontalOptions="Center"
+                X1="0"
+                Y1="0"
+                X2="800"
+                Stroke="Blue"/>
+
+            <Label
+                Padding="30"
+                HorizontalOptions="Center"
+                FontSize="Subtitle"
+                Text="Dimensione Pavimento"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Padding="20"
+                    HorizontalOptions="Center"
+                    Text="Lunghezza (cm)"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+
+                <Entry 
+                    x:Name="entLunghezzaPavimento"
+                    WidthRequest="200"
+                    Margin="20"
+                    Grid.Row="1"
+                    Grid.Column="0"/>
+
+                <Label
+                    Padding="20"
+                    HorizontalOptions="Center"
+                    Text="Larghezza (cm)"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+
+                <Entry 
+                    x:Name="entLarghezzaPavimento"
+                    WidthRequest="200"
+                    Margin="20"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+            </Grid>
+
+            <Line 
+                HorizontalOptions="Center"
+                X1="0"
+                Y1="50"
+                X2="800"
+                Y2="50"
+                Stroke="Blue"/>
+
+            <Label
+                Padding="30"
+                HorizontalOptions="Center"
+                FontSize="Subtitle"
+                Text="Dimensione Piastrella"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Padding="20"
+                    HorizontalOptions="Center"
+                    Text="Lunghezza (cm)"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+
+                <Entry 
+                    x:Name="entLunghezzaPiastrella"
+                    WidthRequest="200"
+                    Margin="20"
+                    Grid.Row="1"
+                    Grid.Column="0"/>
+
+                <Label
+                    Padding="20"
+                    HorizontalOptions="Center"
+                    Text="Larghezza (cm)"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+
+                <Entry 
+                    x:Name="entLarghezzaPiastrella"
+                    WidthRequest="200"
+                    Margin="20"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+            </Grid>
+
+            <Line 
+                HorizontalOptions="Center"
+                X1="0"
+                Y1="50"
+                X2="800"
+                Y2="50"
+                Stroke="Blue"/>
+
+            <Label
+                Padding="20"
+                HorizontalOptions="Center"
+                FontSize="Subtitle"
+                Text="Numero di Piastrelle"/>
+
+            <Entry
+                x:Name="entNumPiastrelle"
+                Margin="20"
+                WidthRequest="200"/>
+
+            <Button 
+                Clicked="Calcola"
+                Padding="20"
+                BackgroundColor="Blue"
+                TextColor="WhiteSmoke"
+                WidthRequest="200"
+                Text="Calcola"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
