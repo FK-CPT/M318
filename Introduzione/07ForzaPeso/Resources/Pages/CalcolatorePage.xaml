@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_07ForzaPeso.CalcolatorePage"
+             Title="CalcolatorePage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Cacolatore Forza Peso"
+                HorizontalOptions="Center" 
+                FontSize="Header"
+                Padding="20"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <VerticalStackLayout
+                    Grid.Column="0"
+                    Grid.Row="0">
+
+                    <Entry 
+                        Placeholder="Inserisci il peso in KG"
+                        PlaceholderColor="WhiteSmoke"
+                        WidthRequest="200"
+                        Margin="80" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+
+                    <Button 
+                        Text="Calcola"
+                        HeightRequest="50"
+                        WidthRequest="200"
+                        Margin="-50"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout
+                    Grid.Column="1"
+                    Grid.Row="0">
+                    <Label 
+                        Text="Luna"
+                        FontSize="30"
+                        HorizontalOptions="Center" 
+                        Padding="70"/>
+                    <Image 
+                        Source="luna.png"
+                        HeightRequest="300"
+                        Margin="20"/>
+                    <Entry 
+                        WidthRequest="100"
+                        TextColor="WhiteSmoke"
+                        HorizontalOptions="Center" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout
+                    Grid.Column="0"
+                    Grid.Row="1">
+                    <Label 
+                        Text="Marte"
+                        FontSize="30"
+                        HorizontalOptions="Center"
+                        Padding="70"/>
+
+                    <Image 
+                        Source="marte.jpg"
+                        HeightRequest="300"
+                        Margin="20"/>
+                    <Entry 
+                        WidthRequest="100"
+                        TextColor="WhiteSmoke"
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

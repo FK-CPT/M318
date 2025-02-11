@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_08GeneratorePassword.GeneraPage"
+             Title="Genera Password">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20"
+            Margin="30">
+            <Label 
+                Text="Generatore di Password sicure"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                FontSize="70"
+                TextColor="WhiteSmoke"/>
+
+            <Line 
+                X1="0"
+                X2="1900"
+                Y2="0"
+                Stroke="Blue"/>
+
+            <Label 
+                Text="Inserisci la lunghezza della Password"
+                FontSize="20"
+                HorizontalOptions="Center"
+                Padding="50"/>
+
+            <Entry 
+                Placeholder="Inserisci lunghezza Password"
+                WidthRequest="250"
+                PlaceholderColor="LightSlateGray"
+                TextColor="WhiteSmoke"/>
+
+            <Label 
+                Text="Password Generata"
+                FontSize="20"
+                Padding="60"
+                HorizontalOptions="Center"
+                TextColor="WhiteSmoke"/>
+
+            <Entry 
+                Placeholder="Password Generata"
+                PlaceholderColor="LightSlateGray"
+                WidthRequest="700"
+                TextColor="WhiteSmoke"
+                Margin="40"/>
+
+            <Button 
+                Text="Genera"
+                TextColor="WhiteSmoke"
+                BackgroundColor="DarkBlue"
+                WidthRequest="200"
+                HeightRequest="50"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00Introduzione", "00Introduzione\00Introduzione.csproj", "{3E2310BF-8E81-4D93-873F-C305116312AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00Introduzione", "00Introduzione\00Introduzione.csproj", "{3E2310BF-8E81-4D93-873F-C305116312AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Orologio", "02Orologio\02Orologio.csproj", "{47C05D1E-258A-455D-9DA5-CAE05B696E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02Orologio", "02Orologio\02Orologio.csproj", "{47C05D1E-258A-455D-9DA5-CAE05B696E05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Scacchiara", "06Scacchiara\06Scacchiara.csproj", "{024BA457-31F1-473E-9263-331456064D3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05Navigazione", "05Navigazione\05Navigazione.csproj", "{FA7F5148-D06A-43B9-8A1D-8FF107C98296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07ForzaPeso", "07ForzaPeso\07ForzaPeso.csproj", "{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08GeneratorePassword", "08GeneratorePassword\08GeneratorePassword.csproj", "{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,30 @@ Global
 		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47C05D1E-258A-455D-9DA5-CAE05B696E05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024BA457-31F1-473E-9263-331456064D3F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7F5148-D06A-43B9-8A1D-8FF107C98296}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F0E8B7-0B13-4215-9C0C-C2C79E8BD903}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3BCF6-ACB7-41E7-9ACE-A806390DE05A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

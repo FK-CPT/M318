@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="_05Equation.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid
+        Padding="20"
+        ColumnDefinitions="*,*"
+        RowDefinitions="Auto,Auto,Auto,Auto,Auto">
+
+
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            Text="Coefficiente A:" />
+        <Entry
+            x:Name="entryA"
+            Grid.Row="0"
+            Grid.Column="1"
+            Keyboard="Numeric" />
+
+
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Coefficiente B:" />
+        <Entry
+            x:Name="entryB"
+            Grid.Row="1"
+            Grid.Column="1"
+            Keyboard="Numeric" />
+
+
+        <Label
+            Grid.Row="2"
+            Grid.Column="0"
+            Text="Coefficiente C:" />
+        <Entry
+            x:Name="entryC"
+            Grid.Row="2"
+            Grid.Column="1"
+            Keyboard="Numeric" />
+
+
+        <Button
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Clicked="OnCalculateClicked"
+            Text="Calcola Radici" />
+
+
+        <Label
+            x:Name="resultLabel"
+            Grid.Row="4"
+            Grid.ColumnSpan="2"
+            FontSize="18"
+            TextColor="Blue" />
+    </Grid>
+</ContentPage>
