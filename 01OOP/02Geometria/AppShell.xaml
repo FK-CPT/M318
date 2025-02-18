@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="_02Geometria.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:_02Geometria"
+    Shell.FlyoutBehavior="Disabled"
+    Title="_02Geometria">
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Rettangolo"
+            ContentTemplate="{DataTemplate local:RettangoloPage}"
+            Route="Rettangolo" />
+
+        <ShellContent
+            Title="Cerchio"
+            ContentTemplate="{DataTemplate local:CerchioPage}"
+            Route="Cerchio" />
+
+        <ShellContent
+            Title="Cubo"
+            ContentTemplate="{DataTemplate local:CuboPage}"
+            Route="Cubo" />
+
+        <ShellContent
+            Title="Sfera"
+            ContentTemplate="{DataTemplate local:SferaPage}"
+            Route="Sfera" />
+
+        <ShellContent
+            Title="Punto"
+            ContentTemplate="{DataTemplate local:PuntoPage}"
+            Route="Punto" />
+
+        <ShellContent
+            Title="Triangolo"
+            ContentTemplate="{DataTemplate local:TriangoloPage}"
+            Route="Triangolo" />
+    </TabBar>
+</Shell>

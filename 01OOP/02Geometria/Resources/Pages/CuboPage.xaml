@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_02Geometria.CuboPage"
+             Title="CuboPage">
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="20">
+
+            <Label 
+                Text="Cubo"
+                FontSize="Header"
+                TextColor="MediumPurple"
+                Padding="20"
+                FontAttributes="Italic"/>
+
+            <Line 
+                X1="0"
+                X2="2000"
+                Y1="0"
+                Stroke="WhiteSmoke"/>
+
+            <Label 
+                Text="Inserisci il Lato"
+                FontSize="20"
+                HorizontalOptions="Center"/>
+
+            <Entry 
+                WidthRequest="300"
+                Margin="30"/>
+
+            <Label 
+                Text="Superficie"
+                FontSize="20"
+                HorizontalOptions="Center"/>
+
+            <Entry 
+                WidthRequest="300"
+                Margin="30"/>
+
+            <Label 
+                Text="Volume"
+                FontSize="20"
+                HorizontalOptions="Center"/>
+
+            <Entry 
+                WidthRequest="300"
+                Margin="30"/>
+
+            <Button 
+                Text="Calcola"
+                WidthRequest="200"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
