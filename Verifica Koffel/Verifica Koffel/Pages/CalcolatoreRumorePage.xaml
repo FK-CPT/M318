@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Verifica_Koffel.CalcolatoreRumorePage"
+             Title="CalcolatoreRumorePage">
+    <ScrollView>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25"
+                Grid.Column="0"
+                Grid.Row="0">
+
+                <Label 
+                    Text="Calcolatore Soglia Rumore"
+                    FontSize="Header"
+                    Padding="20"/>
+
+                <Label 
+                    Text="Decibel (dB)"/>
+
+                <Entry 
+                    WidthRequest="550"
+                    HorizontalOptions="Start"
+                    Placeholder="Inserire decibel"
+                    x:Name="entDecibel"/>
+
+                <Label 
+                    Text="Soglia"/>
+
+                <Entry 
+                    WidthRequest="550"
+                    HorizontalOptions="Start"
+                    x:Name="entSoglia"/>
+
+                <Button 
+                    Text="Calcola"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    WidthRequest="550"
+                    Clicked="Button_Clicked"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Padding="50"
+                Margin="50"
+                Grid.Column="1"
+                Grid.Row="0">
+
+                <BoxView 
+                    HeightRequest="200"
+                    WidthRequest="200"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    x:Name="boxSoglia"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

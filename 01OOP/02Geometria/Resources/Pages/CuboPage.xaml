@@ -27,16 +27,18 @@
 
             <Entry 
                 WidthRequest="300"
-                Margin="30"/>
+                Margin="30"
+                x:Name="entLato"/>
 
             <Label 
-                Text="Superficie"
+                Text="Perimetro"
                 FontSize="20"
                 HorizontalOptions="Center"/>
 
             <Entry 
                 WidthRequest="300"
-                Margin="30"/>
+                Margin="30"
+                x:Name="entPerimetro"/>
 
             <Label 
                 Text="Volume"
@@ -45,11 +47,13 @@
 
             <Entry 
                 WidthRequest="300"
-                Margin="30"/>
+                Margin="30"
+                x:Name="entVolume"/>
 
             <Button 
                 Text="Calcola"
-                WidthRequest="200"/>
+                WidthRequest="200"
+                Clicked="Button_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

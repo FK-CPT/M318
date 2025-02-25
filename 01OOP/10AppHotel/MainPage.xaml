@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_10AppHotel.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame Margin="5">
+                <VerticalStackLayout>
+                    <Label 
+                        FontSize="Title"
+                        Text="Hotel Pokemon"
+                        HorizontalOptions="Center"/>
+
+                    <Label 
+                        FontSize="Subtitle"
+                        Text="Calcolatore Costi"
+                        HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <Frame Margin="5">
+                <VerticalStackLayout>
+                    <Image 
+                        Source="stanza.jpg"
+                        HeightRequest="300"
+                        Aspect="AspectFit"/>
+
+                    <HorizontalStackLayout>
+                        <Label 
+                            Text="Numero Stanza:"
+                            VerticalOptions="Center"/>
+                        <Entry x:Name="entStanza"
+                               IsReadOnly="True"/>
+                    </HorizontalStackLayout>
+                    
+                    <HorizontalStackLayout>
+                        <Label 
+                            Text="Costo:"
+                            VerticalOptions="Center"/>
+                        <Entry 
+                            x:Name="entCosto"
+                            IsReadOnly="True"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

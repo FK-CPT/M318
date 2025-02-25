@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Verifica_Koffel.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label 
+                Text="Verifica Fabio Koffel"
+                FontSize="Header"
+                HorizontalOptions="Center"/>
+
+            <Line 
+                X1="0"
+                X2="2000"
+                Y1="0"
+                Stroke="MediumPurple"/>
+
+            <Image 
+                Source="scaladecibel.jpeg"
+                WidthRequest="500"
+                HeightRequest="500"
+                Margin="50"/>
+
+            <Label 
+                Text="Benvenuto nel calcolaore di Decibel, questo applicativo permette di calcolare quale soglia è accettabile per i decibel inseriti."
+                FontAttributes="Italic"/>
+
+            <Line 
+                X1="0"
+                X2="2000"
+                Y1="0"
+                Stroke="MediumPurple"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
