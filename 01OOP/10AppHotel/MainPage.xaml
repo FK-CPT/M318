@@ -11,37 +11,99 @@
                         FontSize="Title"
                         Text="Hotel Pokemon"
                         HorizontalOptions="Center"/>
-
                     <Label 
                         FontSize="Subtitle"
                         Text="Calcolatore Costi"
                         HorizontalOptions="Center"/>
                 </VerticalStackLayout>
             </Frame>
-            
             <Frame Margin="5">
                 <VerticalStackLayout>
-                    <Image 
-                        Source="stanza.jpg"
-                        HeightRequest="300"
-                        Aspect="AspectFit"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image 
+                            x:Name="immHotel"
+                            Grid.Column="0" 
+                            Grid.Row="0"  
+                            HeightRequest="300" 
+                            Aspect="AspectFit"/>
+                        <VerticalStackLayout Grid.Row="1">
+                            <HorizontalStackLayout>
+                                <Label 
+                                    Text="Stanza numero:" 
+                                    VerticalOptions="Center"/>
+                                <Entry 
+                                    x:Name="entStanza" 
+                                    IsReadOnly="True"/>
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout>
+                                <Label 
+                                    Text="Costo:" 
+                                    VerticalOptions="Center"/>
+                                <Entry 
+                                    x:Name="entCosto" 
+                                    IsReadOnly="True"/>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Grid>
 
+                </VerticalStackLayout>
+            </Frame>
+            <Frame Margin="5">
+                <VerticalStackLayout>
                     <HorizontalStackLayout>
                         <Label 
-                            Text="Numero Stanza:"
+                            Text="Animali" 
                             VerticalOptions="Center"/>
-                        <Entry x:Name="entStanza"
-                               IsReadOnly="True"/>
+                        <CheckBox 
+                            x:Name="checkAnimali"/>
+                        <Label 
+                            Text="Supplemente 20 Fr.- x giorno" 
+                            VerticalOptions="Center"/>
                     </HorizontalStackLayout>
-                    
                     <HorizontalStackLayout>
                         <Label 
-                            Text="Costo:"
+                            Text="Numero Persone" 
                             VerticalOptions="Center"/>
+                        <Stepper 
+                            x:Name="stepPersone" 
+                            ValueChanged="stepPersone_ValueChanged" 
+                            HeightRequest="40" 
+                            WidthRequest="80"/>
                         <Entry 
-                            x:Name="entCosto"
+                            x:Name="entPersone" 
                             IsReadOnly="True"/>
                     </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label 
+                            Text="Data arrivo" 
+                            VerticalOptions="Center"/>
+                        <DatePicker 
+                            x:Name="dateArrivo" 
+                            Format="dd/MM/yyyy"/>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label 
+                            Text="Data Partenza" 
+                            VerticalOptions="Center"/>
+                        <DatePicker 
+                            x:Name="datePartenza" 
+                            Format="dd/MM/yyyy"/>
+                    </HorizontalStackLayout>
+                    <Editor 
+                        x:Name="editOss"
+                        IsReadOnly="True"
+                        MaxLength="50" 
+                        HeightRequest="100" />
+                    <Button 
+                        Clicked="Button_Clicked" 
+                        Text="Calcola costo"/>
                 </VerticalStackLayout>
             </Frame>
         </VerticalStackLayout>
