@@ -6,12 +6,11 @@ namespace _10AppHotel
     public partial class MainPage : ContentPage
     {
         string[] immagini = { "stanza.jpg", "stanza2.jpg", "stanza3.jpg" };
-        Stanza stanza100 = new Stanza(100, 7, "Stanza numero 100", "stanza.jpg");
+        Stanza stanza100 = new Stanza(100, 7, "Stanza numero 100");
         Calcolatore calcolatore;
         public MainPage()
         {
             InitializeComponent();
-            immHotel.Source = stanza100.PercorsoImmagine[0];
             calcolatore = new Calcolatore(stanza100);
             editOss.Text = calcolatore.Stanza.Osservazioni;
             entStanza.Text = calcolatore.Stanza.Numero.ToString();

@@ -4,7 +4,7 @@ namespace _03AppListe
 {
     public partial class MainPage : ContentPage
     {
-        List<Frutto> frutti = new List<Frutto>();
+        List<Frutto> frutti = new List<Frutto>();//Lista di frutti
         Frutto mela = new Frutto("Mela", "Italia");
         Frutto pera = new Frutto("Pera", "Spagna");
         Frutto cocco = new Frutto("Cocco", "Indonesia");
@@ -20,12 +20,12 @@ namespace _03AppListe
             frutti.Insert(1, avocado);
             entFrutto.Text = frutti[0].Nome;
 
-            foreach(Frutto item in frutti)
+            pickFrutti.ItemsSource = frutti;
+
+            foreach (Frutto item in frutti)
             {
                 editFrutti.Text += item + "\n";
             }
-
-            pickFrutti.ItemsSource = frutti;
         }
 
         private void pickFrutti_SelectedIndexChanged(object sender, EventArgs e)

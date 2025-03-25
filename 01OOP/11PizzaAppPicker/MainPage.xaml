@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_11PizzaAppPicker.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame Margin="10" BorderColor="White">
+                <VerticalStackLayout>
+                    <Label Text="Menu Pizze" FontSize="Header" HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label Text="Seleziona il tipo di Pizza" FontSize="Large" Margin="20"/>
+            <Picker x:Name="pickPizza" SelectedIndexChanged="pickPizza_SelectedIndexChanged" FontSize="Medium" Margin="10"/>
+
+            <Frame Margin="10" HeightRequest="400" BorderColor="White">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <VerticalStackLayout Grid.Column="0" Grid.Row="0">
+                        <Image x:Name="imagePizza" WidthRequest="400"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="1" Grid.Row="0">
+                        <Label x:Name="lblNome" FontSize="Medium"/>
+                        <Image x:Name="imPep1" Source="peperoncino.jpg" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" IsVisible="False"/>
+                        <Image x:Name="imPep2" Source="peperoncino.jpg" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" IsVisible="False"/>
+                        <Image x:Name="imPep3" Source="peperoncino.jpg" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" IsVisible="False"/>
+                        <Label x:Name="lblPrezzo" FontSize="Medium"/>
+                        <Label x:Name="lblIngredienti" FontSize="Medium"/>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Valuta Pizza" FontSize="25" VerticalOptions="Center"/>
+                            <Entry WidthRequest="200" IsReadOnly="True" Margin="20" x:Name="entVoto" FontSize="15"/>
+                            <Stepper x:Name="stepVoto" Maximum="6" ValueChanged="stepVoto_ValueChanged"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Quantità" FontSize="25" VerticalOptions="Center"/>
+                            <Entry WidthRequest="100" Margin="15" FontSize="15" x:Name="entQuantita"/>
+                            <Button Text="Calcola Prezzo" WidthRequest="150" HeightRequest="50" Clicked="Button_Clicked"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Grid>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

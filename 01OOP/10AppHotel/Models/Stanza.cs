@@ -40,12 +40,11 @@ namespace _10AppHotel.Models
 			set { _percorsoImmagine = value; }
 		}
 
-		public Stanza(int numero, int costo, string osservazioni, string[] percorsoImmagine)
+		public Stanza(int numero, int costo, string osservazioni)
 		{
 			Numero = numero;
 			Costo = costo;
 			Osservazioni = osservazioni;
-			PercorsoImmagine = percorsoImmagine;
 		}
 	}
 }
