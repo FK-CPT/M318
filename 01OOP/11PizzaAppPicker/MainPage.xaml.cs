@@ -20,12 +20,31 @@
             pickPizza.ItemsSource = pizze;
         }
 
-        private void pickPizza_SelectedIndexChanged(object sender, EventArgs e)
+        private void ImpostaPiccante()
         {
             imPep1.IsVisible = true;
             imPep2.IsVisible = true;
             imPep3.IsVisible = true;
 
+            if (pickPizza.Piccante == 1)
+            {
+                imPep1.IsVisible = true;
+            }
+
+            else if (pickPizza.Piccante == 2)
+            {
+                imPep1.IsVisible = true;
+                imPep2.IsVisible = true;
+            }
+            else
+            {
+                imPep1.IsVisible = true;
+                imPep2.IsVisible = true;
+                imPep3.IsVisible = true;
+            }
+
+        private void pickPizza_SelectedIndexChanged(object sender, EventArgs e)
+        {
             Pizza pizze = (Pizza)pickPizza.SelectedItem;
             lblNome.Text = "Pizza " + pizze.Nome;
             lblPrezzo.Text = pizze.Prezzo.ToString() + " Fr .-";

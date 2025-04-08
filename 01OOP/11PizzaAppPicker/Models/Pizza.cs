@@ -16,14 +16,6 @@ namespace _11PizzaAppPicker
 			set { _nome = value; }
 		}
 
-		private string _piccantezza;
-
-		public string Piccantezza
-		{
-			get { return _piccantezza; }
-			set { _piccantezza = value; }
-		}
-
 		private float _prezzo;
 
 		public float Prezzo
@@ -48,13 +40,22 @@ namespace _11PizzaAppPicker
 			set { _ingredienti = value; }
 		}
 
-		public Pizza(string nome, string piccanzezza, float prezzo, string image, string ingredienti)
+		public int Piccante { get; set; }
+
+        public Pizza(string nome, string piccanzezza, float prezzo, string image, string ingredienti, int piccante)
 		{
-			_nome = nome;
-			_piccantezza = piccanzezza;
-			_prezzo = prezzo;
-			_image = image;
-			_ingredienti = ingredienti;
+			if (String.IsNullOrEmpty(nome) || String.IsNullOrEmpty(image) || String.IsNullOrEmpty(ingredienti) || prezzo <= 0)
+			{
+				throw new ArgumentException("Inizializzazione con valori non consentiti");
+			}
+			else
+			{
+				_nome = nome;
+				_prezzo = prezzo;
+				_image = image;
+				_ingredienti = ingredienti;
+				Piccante = piccante;
+			}
 		}
 
         public override string? ToString()

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJSON.Catalogo"
+             Title="Catalogo">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30">
+            <Picker x:Name="pickLibri" Title="Seleziona un Libro" SelectedIndexChanged="pickLibri_SelectedIndexChanged"/>
+
+            <Label Text="Titolo"/>
+            <Entry x:Name="entTitolo" TextChanged="entTitolo_TextChanged"/>
+
+            <Label Text="Autore"/>
+            <Entry x:Name="entAutore" TextChanged="entAutore_TextChanged"/>
+
+            <Label Text="Pubblicazione"/>
+            <Entry x:Name="entPub" TextChanged="entPub_TextChanged"/>
+            <Button Clicked="Button_Clicked" Text="Scrivi JSON"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10AppSquola", "10AppSquola\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03AppListe", "03AppListe\03AppListe.csproj", "{02049578-8EC6-42E6-9F17-9D3CE3A80A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11PizzaAppPicker", "11PizzaAppPicker\11PizzaAppPicker.csproj", "{72B99EB8-C7F4-432F-A854-E5C61871080C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11PizzaAppPicker", "11PizzaAppPicker\11PizzaAppPicker.csproj", "{72B99EB8-C7F4-432F-A854-E5C61871080C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Pokemon", "04Pokemon\04Pokemon.csproj", "{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,12 @@ Global
 		{72B99EB8-C7F4-432F-A854-E5C61871080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B99EB8-C7F4-432F-A854-E5C61871080C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72B99EB8-C7F4-432F-A854-E5C61871080C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA57E2F6-8398-4C0C-BBF4-363AC59B7A01}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
