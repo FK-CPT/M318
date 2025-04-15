@@ -8,11 +8,23 @@ namespace AppJSON.Models
 {
     internal class Libreria
     {
-        public List<Libro> Libri {  get; set; }
+        public List<Libro> Libri { get; set; }
 
-        public Libreria(List<Libro> libri)
+        public Libreria()
         {
-            Libri = libri;
+            Libri = new List <Libro>();
+        }
+
+        public void AggiungiLibro(Libro libro)
+        {
+            if (!Libri.Contains(libro))
+            {
+                Libri.Add(libro);
+            }
+            else
+            {
+                throw new Exception("Libro Esistente");
+            }
         }
     }
 }

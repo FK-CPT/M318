@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Verifica2.CampiPage"
+             Title="CampiPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <VerticalStackLayout Grid.Column="0" Grid.Row="0">
+                    <Image HeightRequest="400" WidthRequest="400" x:Name="imgCampo"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1" Grid.Row="0" Margin="20" Spacing="30">
+                    <Picker Title="Seleziona Campo" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="pickCampi" SelectedIndexChanged="pickCampi_SelectedIndexChanged"/>
+
+                    <Label Text="Nome del campo:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entNomeCampo"/>
+
+                    <Label Text="Indirizzo:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entIndirizzo"/>
+
+                    <Label Text="NAP:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entNAP"/>
+
+                    <Label Text="Località"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entLocalita"/>
+
+                    <Label Text="Nome e cognome responsabile:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entNomeCognomeResp"/>
+
+                    <Label Text="Telefono:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entTelefono"/>
+
+                    <Label Text="Link sito internet:"/>
+                    <Entry IsReadOnly="True" HorizontalOptions="StartAndExpand" WidthRequest="600" x:Name="entLink"/>
+
+                    <Label Text="Commento"/>
+                    <Entry HorizontalOptions="StartAndExpand" WidthRequest="600"/>
+
+                    <Label Text="Preferito"/>
+                    <CheckBox IsChecked="False"/>
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

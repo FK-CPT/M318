@@ -39,9 +39,23 @@ namespace AppJSON.Models
 			_annoPubblicazione = annoPubblicazione;
 		}
 
+		
         public override string? ToString()
         {
             return Titolo + " - " + Autore;
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is Libro libro &&
+					Titolo == libro.Titolo &&
+					Autore == libro.Autore &&
+					AnnoPubblicazione == libro.AnnoPubblicazione;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Titolo, Autore, AnnoPubblicazione);
         }
     }
 }
