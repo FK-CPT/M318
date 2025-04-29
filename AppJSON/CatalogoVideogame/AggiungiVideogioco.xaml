@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoVideogame.AggiungiVideogioco"
+             Title="AggiungiVideogioco">
+    <VerticalStackLayout Margin="20" Spacing="20">
+        <Entry Placeholder="Inserisci un Titolo" x:Name="entAggiungiVideogioco" TextChanged="entAggiungiVideogioco_TextChanged"/>
+        <Entry Placeholder="Inserisci una Descrizione" x:Name="entAggiungiDescrizione" TextChanged="entAggiungiDescrizione_TextChanged"/>
+        <Entry Placeholder="Inserisci uno Sviluppatore" x:Name="entAggiungiSviluppatore" TextChanged="entAggiungiSviluppatore_TextChanged"/>
+        <Entry Placeholder="Inserisci una valutazione numerica" x:Name="entAggiungiValutazione" TextChanged="entAggiungiValutazione_TextChanged"/>
+        <Entry Placeholder="Inserisci il percoro dell'immagine" x:Name="entAggiungiImmagine" TextChanged="entAggiungiImmagine_TextChanged"/>
+        <Button Text="Aggiungi" x:Name="btAggiungi" Clicked="btAggiungi_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -15,7 +15,7 @@
                 </Grid.RowDefinitions>
 
                 <VerticalStackLayout Grid.Column="0" Grid.Row="0">
-                    <Image HeightRequest="400" WidthRequest="400" x:Name="imgCampo"/>
+                    <Image HeightRequest="600" WidthRequest="600" x:Name="imgCampo"/>
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Grid.Column="1" Grid.Row="0" Margin="20" Spacing="30">
@@ -46,7 +46,7 @@
                     <Entry HorizontalOptions="StartAndExpand" WidthRequest="600"/>
 
                     <Label Text="Preferito"/>
-                    <CheckBox IsChecked="False"/>
+                    <CheckBox IsChecked="False" CheckedChanged="CheckBox_CheckedChanged"/>
                 </VerticalStackLayout>
             </Grid>
         </VerticalStackLayout>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoVideogame.MainPage">
+
+    <ScrollView>
+
+        <VerticalStackLayout Margin="20" Spacing="20">
+            <Frame>
+                <Label Text="Catalogo Videogames" FontSize="Header"/>
+                <Picker Title="Seleziona un videogame" x:Name="pickVideogioco" SelectedIndexChanged="Picker_SelectedIndexChanged"/>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Margin="20" Spacing="20">
+                    <Label Text="Titolo" FontAttributes="Bold"/>
+                    <Entry IsReadOnly="True" x:Name="entTitolo"/>
+
+                    <Label Text="Sviluppatore" FontAttributes="Bold"/>
+                    <Entry IsReadOnly="True" x:Name="entSviluppatore"/>
+
+                    <Label Text="Descrizzione" FontAttributes="Bold"/>
+                    <Editor IsReadOnly="True" x:Name="editDescrizzione"/>
+
+                    <Label Text="Commento" FontAttributes="Bold"/>
+                    <Entry IsReadOnly="False" x:Name="entCommento"/>
+
+                    <Label Text="Galleria" FontAttributes="Bold"/>
+                    <Image x:Name="imgVideogame" WidthRequest="800"/>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
