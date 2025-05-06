@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Verifica3FabioKoffel.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Verifica3FabioKoffel"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Verifica3FabioKoffel">
+
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Nuova Ricetta"
+            ContentTemplate="{DataTemplate local:InsertPage}"
+            Route="InsertPage" />
+    </TabBar>
+</Shell>

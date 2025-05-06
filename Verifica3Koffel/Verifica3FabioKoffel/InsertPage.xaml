@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Verifica3FabioKoffel.InsertPage"
+             Title="InsertPage">
+    <VerticalStackLayout Padding="35,0" Spacing="10">
+        <Label Text="Nuova ricetta" FontSize="Header"/>
+
+        <Frame>
+            <VerticalStackLayout Spacing="10">
+                <Entry Placeholder="Inserisci il nome della ricetta" x:Name="entInsNome"/>
+                <Entry Placeholder="Inserisci la difficoltà da 1-5" x:Name="entInsDifficolta"/>
+                <Entry Placeholder="Inserisci il numero di persone" x:Name="entInsNumPers"/>
+                <Entry Placeholder="Inserisci il link alla ricetta" x:Name="entInsLink"/>
+                <Entry Placeholder="Inserisci la preparazione" x:Name="entInsPreparazione"/>
+                <Entry Placeholder="Inserisci un commento" x:Name="entInsCommento"/>
+                <Button Text="Inserisci" WidthRequest="300" x:Name="btInserisci" Clicked="btInserisci_Clicked"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

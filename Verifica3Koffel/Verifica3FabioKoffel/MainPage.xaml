@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Verifica3FabioKoffel.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="35,0" Spacing="10">
+            <Picker Title="Cerca ricetta..." x:Name="pickerRicetta" SelectedIndexChanged="pickerRicetta_SelectedIndexChanged"/>
+
+            <Label Text="Nome Ricetta:" FontAttributes="Bold"/>
+            <Entry Placeholder="Inserisci il nome della ricetta" x:Name="entNome"/>
+
+            <Label Text="Numero Persone:" FontAttributes="Bold"/>
+            <Entry Placeholder="Es. 2" x:Name="entNumero"/>
+
+            <Label Text="Sito Web (opzionale):"/>
+            <Entry Placeholder="Inserisci l'URL del sito" x:Name="entSito"/>
+
+            <Label Text="Preparazione:"/>
+            <Editor HeightRequest="150" x:Name="editPreparazione"/>
+
+            <Label Text="Difficoltà (1-5):"/>
+            <Entry Placeholder="Es. 3" x:Name="entDifficolta"/>
+
+            <Label Text="Commenti (opzionale):"/>
+            <Editor HeightRequest="150" x:Name="editCommento"/>
+
+            <Button Text="Salva" WidthRequest="400" x:Name="btSalva" Clicked="btSalva_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
