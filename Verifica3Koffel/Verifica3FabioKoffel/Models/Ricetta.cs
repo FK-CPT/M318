@@ -16,17 +16,17 @@ namespace Verifica3FabioKoffel.Models
 			set { _nome = value; }
 		}
 
-		private string _numeroPresone;
+		private int _numeroPersone;
 
-		public string NumPersone
+		public int NumeroPersone
 		{
-			get { return _numeroPresone; }
-			set { _numeroPresone = value; }
+			get { return _numeroPersone; }
+			set { _numeroPersone = value; }
 		}
 
 		private string _sitoRicetta;
 
-		public string Sito
+		public string SitoRicetta
 		{
 			get { return _sitoRicetta; }
 			set { _sitoRicetta = value; }
@@ -40,9 +40,9 @@ namespace Verifica3FabioKoffel.Models
 			set { _preparazione = value; }
 		}
 
-		private string _difficolta;
+		private int _difficolta;
 
-		public string Difficolta
+		public int Difficolta
 		{
 			get { return _difficolta; }
 			set { _difficolta = value; }
@@ -57,11 +57,11 @@ namespace Verifica3FabioKoffel.Models
 			set { _commento = value; }
 		}
 
-        public Ricetta(string nome, string numPresone, string sito, string preparazione, string difficolta, string commento)
+        public Ricetta(string nome, int numeroPersone, string sitoRicetta, string preparazione, int difficolta, string commento)
         {
             _nome = nome;
-            _numeroPresone = numPresone;
-            _sitoRicetta = sito;
+            _numeroPersone = numeroPersone;
+            _sitoRicetta = sitoRicetta;
             _preparazione = preparazione;
             _difficolta = difficolta;
             _commento = commento;

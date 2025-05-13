@@ -6,6 +6,11 @@
         {
             InitializeComponent();
         }
+
+        private void pickArtista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

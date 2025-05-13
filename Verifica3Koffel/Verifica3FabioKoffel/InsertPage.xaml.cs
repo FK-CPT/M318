@@ -39,7 +39,7 @@ public partial class InsertPage : ContentPage
     {
         try
         {
-            catalogo.AggiungiRicetta(new Ricetta(entInsNome.Text, entInsNumPers.Text, entInsLink.Text, entInsPreparazione.Text, entInsDifficolta.Text, entInsCommento.Text));
+            catalogo.AggiungiRicetta(new Ricetta(entInsNome.Text, Convert.ToInt32(entInsNumPers.Text), entInsLink.Text, entInsPreparazione.Text, Convert.ToInt32(entInsDifficolta.Text), entInsCommento.Text));
             string jsonString = JsonSerializer.Serialize(catalogo, options);
         }
         catch (Exception ex)

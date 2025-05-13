@@ -6,8 +6,7 @@ namespace Verifica3FabioKoffel
     public partial class MainPage : ContentPage
     {
         string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Ricette.json");
-        List<Ricetta> ricette;
-
+        Catalogo catalogo;
         private readonly JsonSerializerOptions options = new()
         {
             PropertyNameCaseInsensitive = true,
@@ -21,17 +20,8 @@ namespace Verifica3FabioKoffel
             try
             {
                 var leggiJSON = File.ReadAllText(path);
-                var root = JsonSerializer.Deserialize<Catalogo>(leggiJSON, options);
-
-                if (root?.Ricette != null)
-                {
-                    ricette = root.Ricette;
-                    pickerRicetta.ItemsSource = ricette;
-                }
-                else
-                {
-                    DisplayAlert("Errore", "Nessuna ricetta è stata trovata nel file", "OK");
-                }
+                catalogo = JsonSerializer.Deserialize<Catalogo>(leggiJSON, options);
+                pickerRicetta.ItemsSource = catalogo.Ricette;
             }
             catch (Exception ex)
             {
@@ -43,8 +33,8 @@ namespace Verifica3FabioKoffel
         {
             var selected = (Ricetta)pickerRicetta.SelectedItem;
             entNome.Text = selected.Nome;
-            entNumero.Text = selected.NumPersone.ToString();
-            entSito.Text = selected.Sito;
+            entNumero.Text = selected.NumeroPersone.ToString();
+            entSito.Text = selected.SitoRicetta;
             editPreparazione.Text = selected.Preparazione;
             entDifficolta.Text = selected.Difficolta.ToString();
             editCommento.Text = selected.Commento;
