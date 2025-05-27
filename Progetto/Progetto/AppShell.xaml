@@ -6,10 +6,15 @@
     xmlns:local="clr-namespace:Progetto"
     Shell.FlyoutBehavior="Disabled"
     Title="Progetto">
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+        <ShellContent
+            Title="AggiungiArtista"
+            ContentTemplate="{DataTemplate local:AggiungiArtista}"
+            Route="AggiungiPage"/>
+    </TabBar>
 </Shell>

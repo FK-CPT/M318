@@ -6,7 +6,6 @@
         <VerticalStackLayout Margin="30" Padding="20" Spacing="20">
             <Label Text="Artist" FontSize="Header" FontAttributes="Bold"/>
             <Picker x:Name="pickArtista" Title="Seleziona l'artista" SelectedIndexChanged="pickArtista_SelectedIndexChanged"/>
-
             <Frame>
                 <HorizontalStackLayout Spacing="20">
                     <Image x:Name="imgArtista" Source="dotnet_bot.png" WidthRequest="500" VerticalOptions="Center"/>
@@ -27,40 +26,25 @@
             </Frame>
 
             
-            <Label Text="Top 2 Album" FontSize="Header" HorizontalOptions="Center"/>
+            
+            <Label Text="Album Migliore" FontSize="Header" HorizontalOptions="Center"/>
             <Frame>
                 <HorizontalStackLayout Spacing="12">
                     <VerticalStackLayout>
-                        <Label x:Name="lbAlbumName1" Text="Nome Album" FontSize="Large"/>
-                        <Image x:Name="imgAlbum1" WidthRequest="500" VerticalOptions="Center" Source="dotnet_bot.png"/>
+                        <Label x:Name="lbAlbumName" Text="Nome Album" FontSize="Large"/>
+                        <Image x:Name="imgAlbum" WidthRequest="500" VerticalOptions="Center" Source="dotnet_bot.png"/>
 
                         <Label Text="Ascolti Totali" FontSize="Large"/>
-                        <Label x:Name="lbAscoltiAlbum1" Text="Ascolti Totali" FontAttributes="Italic" FontSize="Medium"/>
+                        <Label x:Name="lbAscoltiAlbum" Text="Ascolti Totali" FontAttributes="Italic" FontSize="Medium"/>
                     </VerticalStackLayout>
 
                     <VerticalStackLayout Spacing="12">
                         <Label Text="Canzoni Album" FontSize="Large"/>
-                        <Editor x:Name="editSongsAlbum1" WidthRequest="700" IsReadOnly="True"/>
+                        <Editor x:Name="editSongsAlbum" WidthRequest="700" IsReadOnly="True"/>
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
             </Frame>
 
-            <Frame>
-                <HorizontalStackLayout Spacing="12">
-                    <VerticalStackLayout>
-                        <Label x:Name="lbAlbumName2" Text="Nome Album" FontSize="Large"/>
-                        <Image x:Name="imgAlbum2" WidthRequest="500" VerticalOptions="Center" Source="dotnet_bot.png"/>
-
-                        <Label Text="Ascolti Totali" FontSize="Large"/>
-                        <Label x:Name="lbAscoltiAlbum2" Text="Ascolti Totali" FontAttributes="Italic" FontSize="Medium"/>
-                    </VerticalStackLayout>
-
-                    <VerticalStackLayout Spacing="12">
-                        <Label Text="Canzoni Album" FontSize="Large"/>
-                        <Editor x:Name="editSongsAlbum2" WidthRequest="700" IsReadOnly="True"/>
-                    </VerticalStackLayout>
-                </HorizontalStackLayout>
-            </Frame>
 
 
             <Label Text="Top 5 Canzoni" FontSize="Header" HorizontalOptions="Center"/>
@@ -69,41 +53,41 @@
                     <HorizontalStackLayout Spacing="50">
                         <Label Text="1°" FontSize="Large" VerticalOptions="Center"/>
                         <Image x:Name="imgSong1" WidthRequest="150" HeightRequest="150" VerticalOptions="Center" Source="dotnet_bot.png"/>
-                        <Label x:Name="lbTitoloCanzone1" Text="Canzone 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbDurataCanzone1" Text="Durata 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbAscoltiCanzone1" Text="Ascolti 1" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbTitoloCanzone1" Text="Canzone" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbDurataCanzone1" Text="Durata" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbAscoltiCanzone1" Text="Ascolti" FontSize="Large" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="50">
                         <Label Text="2°" FontSize="Large" VerticalOptions="Center"/>
                         <Image x:Name="imgSong2" WidthRequest="150" HeightRequest="150" VerticalOptions="Center" Source="dotnet_bot.png"/>
-                        <Label x:Name="lbTitoloCanzone2" Text="Canzone 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbDurataCanzone2" Text="Durata 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbAscoltiCanzone2" Text="Ascolti 1" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbTitoloCanzone2" Text="Canzone" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbDurataCanzone2" Text="Durata" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbAscoltiCanzone2" Text="Ascolti" FontSize="Large" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="50">
                         <Label Text="3°" FontSize="Large" VerticalOptions="Center"/>
                         <Image x:Name="imgSong3" WidthRequest="150" HeightRequest="150" VerticalOptions="Center" Source="dotnet_bot.png"/>
-                        <Label x:Name="lbTitoloCanzone3" Text="Canzone 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbDurataCanzone3" Text="Durata 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbAscoltiCanzone3" Text="Ascolti 1" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbTitoloCanzone3" Text="Canzone" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbDurataCanzone3" Text="Durata" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbAscoltiCanzone3" Text="Ascolti" FontSize="Large" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="50">
                         <Label Text="4°" FontSize="Large" VerticalOptions="Center"/>
                         <Image x:Name="imgSong4" WidthRequest="150" HeightRequest="150" VerticalOptions="Center" Source="dotnet_bot.png"/>
-                        <Label x:Name="lbTitoloCanzone4" Text="Canzone 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbDurataCanzone4" Text="Durata 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbAscoltiCanzone4" Text="Ascolti 1" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbTitoloCanzone4" Text="Canzone" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbDurataCanzone4" Text="Durata" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbAscoltiCanzone4" Text="Ascolti" FontSize="Large" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="50">
                         <Label Text="5°" FontSize="Large" VerticalOptions="Center"/>
                         <Image x:Name="imgSong5" WidthRequest="150" HeightRequest="150" VerticalOptions="Center" Source="dotnet_bot.png"/>
-                        <Label x:Name="lbTitoloCanzone5" Text="Canzone 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbDurataCanzone5" Text="Durata 1" FontSize="Large" VerticalOptions="Center"/>
-                        <Label x:Name="lbAscoltiCanzone5" Text="Ascolti 1" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbTitoloCanzone5" Text="Canzone" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbDurataCanzone5" Text="Durata" FontSize="Large" VerticalOptions="Center"/>
+                        <Label x:Name="lbAscoltiCanzone5" Text="Ascolti" FontSize="Large" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
             </Frame>

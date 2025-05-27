@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Progetto.AggiungiArtista"
+             Title="AggiungiArtista">
+    <ScrollView>
+        
+        <VerticalStackLayout Margin="30" Spacing="20">
+            <Label Text="Aggiungi Artista" FontSize="Header" HorizontalOptions="Center"/>
+            <Frame>
+                <VerticalStackLayout Margin="30" Spacing="20">
+                    <Label Text="Nome Artista" FontSize="20" FontAttributes="Bold,Italic"/>
+                    <Entry x:Name="entAtistaNome"/>
+
+                    <Label Text="Genere Artista" FontSize="20" FontAttributes="Bold,Italic"/>
+                    <Entry x:Name="entArtistaGenere"/>
+
+                    <Label Text="Ascolti Mensili" FontSize="20" FontAttributes="Bold,Italic"/>
+                    <Entry x:Name="entArtistaAscolti"/>
+
+                    <Label Text="Biografia" FontSize="20" FontAttributes="Bold,Italic"/>
+                    <Entry x:Name="entArtistaBiografia"/>
+
+                    <Label Text="Foto Artista" FontSize="20" FontAttributes="Bold,Italic"/>
+                    <Entry Placeholder="Path" PlaceholderColor="LightSkyBlue" x:Name="entArtistaImg"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            
+            <Label Text="Aggiungi Album" FontSize="Header" HorizontalOptions="Center"/>
+            <Frame>
+                <VerticalStackLayout Margin="30" Spacing="20" HorizontalOptions="Center">
+                    <Label Text="1° Album" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entAlbumTitolo1" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti Totali" PlaceholderColor="LightSkyBlue" x:Name="entAlbumAscolti1" WidthRequest="250"/>
+                        <Entry Placeholder="Canzoni" PlaceholderColor="LightSkyBlue" x:Name="entAlbumCanzoni1" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entAlbumImmagine1" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="2° Album" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entAlbumTitolo2" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti Totali" PlaceholderColor="LightSkyBlue" x:Name="entAlbumAscolti2" WidthRequest="250"/>
+                        <Entry Placeholder="Canzoni" PlaceholderColor="LightSkyBlue" x:Name="entAlbumCanzoni2" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entAlbumImmagine2" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            
+            <Label Text="Aggiungi Top 5 Canzoni" FontSize="Header" HorizontalOptions="Center"/>
+            <Frame>
+                <VerticalStackLayout Margin="30" Spacing="20" HorizontalOptions="Center">
+                    <Label Text="1° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneTitolo1" WidthRequest="250"/>
+                        <Entry Placeholder="Durata" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneDurata1" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneAscolti1" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneImmagine1" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="2° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneTitolo2" WidthRequest="250"/>
+                        <Entry Placeholder="Durata" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneDurata2" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneAscolti2" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneImmagine2" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="3° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneTitolo3" WidthRequest="250"/>
+                        <Entry Placeholder="Durata" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneDurata3" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneAscolti3" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneImmagine3" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="4° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneTitolo4" WidthRequest="250"/>
+                        <Entry Placeholder="Durata" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneDurata4" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneAscolti4" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneImmagine4" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="5° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
+                    <HorizontalStackLayout Spacing="20" Margin="20" HorizontalOptions="Center">
+                        <Entry Placeholder="Titolo" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneTitolo5" WidthRequest="250"/>
+                        <Entry Placeholder="Durata" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneDurata5" WidthRequest="250"/>
+                        <Entry Placeholder="Ascolti" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneAscolti5" WidthRequest="250"/>
+                        <Entry Placeholder="Path Immagine" PlaceholderColor="LightSkyBlue" x:Name="entCanzoneImmagine5" WidthRequest="250"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Aggiungi" x:Name="btAggiungiArtista" WidthRequest="400" HorizontalOptions="Center" Background="LightSkyBlue"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
