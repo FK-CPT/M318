@@ -8,7 +8,7 @@
             <Picker x:Name="pickArtista" Title="Seleziona l'artista" SelectedIndexChanged="pickArtista_SelectedIndexChanged"/>
             <Frame>
                 <HorizontalStackLayout Spacing="20">
-                    <Image x:Name="imgArtista" Source="dotnet_bot.png" WidthRequest="500" VerticalOptions="Center"/>
+                    <Image x:Name="imgArtista" Source="dotnet_bot.png" WidthRequest="500" VerticalOptions="Center" HeightRequest="600"/>
                     <VerticalStackLayout Spacing="10">
                         <Label Text="Nome" FontSize="Large" FontAttributes="Bold"/>
                         <Label x:Name="lbNome" Text="Nome" FontAttributes="Italic" FontSize="Medium"/>
@@ -25,8 +25,8 @@
                 </HorizontalStackLayout>
             </Frame>
 
-            
-            
+
+
             <Label Text="Album Migliore" FontSize="Header" HorizontalOptions="Center"/>
             <Frame>
                 <HorizontalStackLayout Spacing="12">
@@ -47,7 +47,7 @@
 
 
 
-            <Label Text="Top 5 Canzoni" FontSize="Header" HorizontalOptions="Center"/>
+            <Label Text="Popolari" FontSize="Header" HorizontalOptions="Center"/>
             <Frame>
                 <VerticalStackLayout>
                     <HorizontalStackLayout Spacing="50">

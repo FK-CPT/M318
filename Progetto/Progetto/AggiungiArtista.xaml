@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Progetto.AggiungiArtista"
              Title="AggiungiArtista">
+
     <ScrollView>
-        
         <VerticalStackLayout Margin="30" Spacing="20">
             <Label Text="Aggiungi Artista" FontSize="Header" HorizontalOptions="Center"/>
             <Frame>
@@ -49,7 +49,7 @@
             </Frame>
 
             
-            <Label Text="Aggiungi Top 5 Canzoni" FontSize="Header" HorizontalOptions="Center"/>
+            <Label Text="Aggiungi Canzoni Popolari" FontSize="Header" HorizontalOptions="Center"/>
             <Frame>
                 <VerticalStackLayout Margin="30" Spacing="20" HorizontalOptions="Center">
                     <Label Text="1° Canzone" FontSize="25" FontAttributes="Bold,Italic"/>
@@ -94,7 +94,7 @@
                 </VerticalStackLayout>
             </Frame>
 
-            <Button Text="Aggiungi" x:Name="btAggiungiArtista" WidthRequest="400" HorizontalOptions="Center" Background="LightSkyBlue"/>
+            <Button Text="Aggiungi" x:Name="btAggiungi" WidthRequest="400" HorizontalOptions="Center" Background="LightSkyBlue"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

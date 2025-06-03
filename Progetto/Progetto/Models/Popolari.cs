@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progetto.Models
 {
-    internal class TopCanzoni
+    internal class Popolari
     {
 		private string _titolo;
 
@@ -32,11 +32,20 @@ namespace Progetto.Models
 			set { _ascolti = value; }
 		}
 
-        public TopCanzoni(string titolo, string durata, int ascolti)
+		private string _imgCanzone;
+
+		public string ImgCanzone
+		{
+			get { return _imgCanzone; }
+			set { _imgCanzone = value; }
+		}
+
+        public Popolari(string titolo, string durata, int ascolti, string imgCanzone)
         {
             _titolo = titolo;
             _durata = durata;
             _ascolti = ascolti;
+            _imgCanzone = imgCanzone;
         }
     }
 }
