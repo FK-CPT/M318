@@ -24,9 +24,9 @@ namespace Progetto.Models
 			set { _ascolti = value; }
 		}
 
-		private CanzoniAlbum _canzoni;
+		private string _canzoni;
 
-		public CanzoniAlbum Canzoni
+		public string Canzoni
 		{
 			get { return _canzoni; }
 			set { _canzoni = value; }
@@ -40,7 +40,7 @@ namespace Progetto.Models
 			set { _coverAlbum = value; }
 		}
 
-        public Album(string nome, int ascolti, CanzoniAlbum canzoni, string coverAlbum)
+        public Album(string nome, int ascolti, string canzoni, string coverAlbum)
         {
             _nome = nome;
             _ascolti = ascolti;

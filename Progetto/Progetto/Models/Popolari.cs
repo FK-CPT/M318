@@ -39,13 +39,5 @@ namespace Progetto.Models
 			get { return _imgCanzone; }
 			set { _imgCanzone = value; }
 		}
-
-        public Popolari(string titolo, string durata, int ascolti, string imgCanzone)
-        {
-            _titolo = titolo;
-            _durata = durata;
-            _ascolti = ascolti;
-            _imgCanzone = imgCanzone;
-        }
     }
 }

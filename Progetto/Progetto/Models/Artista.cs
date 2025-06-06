@@ -48,8 +48,16 @@ namespace Progetto.Models
 			set { _imgArtista = value; }
 		}
 
+        public Artista(string nome, string genere, int ascoltiMensili, string biografia, string imgArtista)
+        {
+            _nome = nome;
+            _genere = genere;
+            _ascoltiMensili = ascoltiMensili;
+            _biografia = biografia;
+            _imgArtista = imgArtista;
+        }
 
-		public override string? ToString()
+        public override string? ToString()
         {
             return Nome + " - " + Genere;
         }
