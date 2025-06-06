@@ -1,0 +1,34 @@
+{
+    "popolari": [
+        {
+            "titolo":"NEON",
+            "durata":"3:46",
+            "ascolti": 29842857,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\snmg.jpg"
+        },
+        {
+            "titolo":"NON METTERCI BECCO",
+            "durata":"3:02",
+            "ascolti": 17570461,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\snmg.jpg"
+        },
+        {
+            "titolo":"VVS CARTIER",
+            "durata":"3:00",
+            "ascolti": 12784702,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\snmg.jpg"
+        },
+        {
+            "titolo":"SEI PERSA",
+            "durata":"2:58",
+            "ascolti": 11763104,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\snmg.jpg"
+        },
+        {
+            "titolo":"MOLECOLE SPRITE",
+            "durata":"2:54",
+            "ascolti": 11099775,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\snmg.jpg"
+        }
+    ]
+}

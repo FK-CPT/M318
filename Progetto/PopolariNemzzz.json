@@ -1,0 +1,34 @@
+{
+    "popolari": [
+        {
+            "titolo":"COLD",
+            "durata":"2:23",
+            "ascolti": 36687189,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\rentsdue.jpg"
+        },
+        {
+            "titolo":"DILEMMA",
+            "durata":"2:40",
+            "ascolti": 23764591,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\rentsdue.jpg"
+        },
+        {
+            "titolo":"Redemption (feat. Nemzzz)",
+            "durata":"2:35",
+            "ascolti": 38097648,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\redemption.jpg"
+        },
+        {
+            "titolo":"Spinnin (feat. Nemzzz) - Segway Remix",
+            "durata":"2:42",
+            "ascolti": 38409971,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\spinnin.jfif"
+        },
+        {
+            "titolo":"Escape",
+            "durata":"2:08",
+            "ascolti": 73333495,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\escape.jpg"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "popolari": [
+        {
+            "titolo":"Like That",
+            "durata":"4:27",
+            "ascolti": 789568533,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\wedonttrustyou.jpg"
+        },
+        {
+            "titolo":"Too Many Nights (feat. Don Toliver & Future)",
+            "durata":"  3:19",
+            "ascolti": 978148634,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\heroesandvillans.jfif"
+        },
+        {
+            "titolo":"Low Life",
+            "durata":"5:13",
+            "ascolti": 1126669819,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\lowlife.jfif"
+        },
+        {
+            "titolo":"Type Shit",
+            "durata":"3:48",
+            "ascolti": 568926288,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\wedonttrustyou.jpg"
+        },
+        {
+            "titolo":"Mask Off",
+            "durata":"3:24",
+            "ascolti": 1873131740,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\maskoff.jpg"
+        }
+    ]
+}

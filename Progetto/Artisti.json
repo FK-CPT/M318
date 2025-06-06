@@ -1,0 +1,53 @@
+{
+    "artista": [
+        {
+            "nome":"Travis Scott",
+            "genere":"Pop, Hip-Hop/Rap",
+            "ascoltiMensili": 74900000,
+            "biografia": "Jacques Bermon Webster II è nato il 30 aprile 1991, a Houston, Texas. Cresciuto a Missouri City, una benestante località inglobata nell'area metropolitana di Houston-The Woodlands-Sugar Land, frequenta la Elkins High School, dove si diplomerà poi a 17 anni. Travis stava la maggior parte del tempo con la nonna mentre sua madre lavorava all'Apple Inc. e il padre gestiva la propria attività. Webster frequenta poi la University of Texas San Antonio, ma poco più tardi la abbandona per concentrarsi pienamente sulla musica. Dopo l'abbandono della scuola, si trasferisce a New York per dar inizio alla sua carriera. I genitori non lo supportano nella sua decisione e decidono quindi di non finanziare in alcun modo il suo soggiorno a New York.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\travis.jpg"
+        },
+        {
+            "nome":"Future",
+            "genere":"Pop, Hip-Hop/Rap",
+            "ascoltiMensili": 56000000,
+            "biografia": "Nayvadius DeMun Wilburn è nato il 20 novembre 1983 ad Atlanta, Georgia ed è cresciuto nel quartiere di Kirkwood, frequentando la Columbia High School a Decatur. All'età di sedici anni (c. 1999/2000) racconta di essere stato sparato alla mano e derubato, un evento che considera un punto di svolta importante nella sua vita.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\future.jpg"
+        },
+        {
+            "nome":"Gunna",
+            "genere":"Hip-Hop/Rap",
+            "ascoltiMensili": 32400000,
+            "biografia": "Kitchens nasce a College Park, in Georgia, e viene cresciuto dalla madre insieme ai suoi quattro fratelli. Inizia a produrre musica all'eta di quindici anni. Cresce ascoltando Cam'ron e Outkast.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\gunna.jpg"
+        },
+        {
+            "nome":"Tha Supreme",
+            "genere":"Trap Alternative Hip-Hop",
+            "ascoltiMensili": 3000000,
+            "biografia": "Davide Mattei iniziò a produrre all'età di quattordici anni, cominciando a creare versioni strumentali di brani di artisti che ascoltava. Due anni dopo ha abbandonato la scuola per dedicarsi completamente alla musica",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\"
+        },
+        {
+            "nome":"Lazza",
+            "genere":"Hip-Hop/Rap",
+            "ascoltiMensili": 4900000,
+            "biografia": "Jacopo Lazzarini ha iniziato gli studi in pianoforte presso il liceo musicale del conservatorio Giuseppe Verdi di Milano, cambiando successivamente indirizzo in un liceo linguistico ma senza conseguire la maturità. Successivamente è passato nel mondo dell'hip-hop, entrando nei collettivi Zero2 e Blocco Recordz. Nel 2009 ha preso parte alla manifestazione annuale di freestyle Tecniche Perfette.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\lazza.jpg"
+        },
+        {
+            "nome":"Sfera Ebbasta",
+            "genere":"Pop, Rap, Trap e Hip-Hop",
+            "ascoltiMensili": 7100000,
+            "biografia": "Gionata Boschetti nato a Sesto San Giovanni, da madre di origine siciliana, i suoi genitori si separarono due anni dopo (il padre morì successivamente nel 2006). Durante la sua infanzia crebbe principalmente a Cinisello Balsamo, nonostante si sia trasferito svariate volte assieme alla madre Valentina e alla sorella Andrea.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\sferaebbasta.jpg"
+        },
+        {
+            "nome":"Nemzzz",
+            "genere":"Hip-Hop/Rap, UK Rap",
+            "ascoltiMensili": 8400000,
+            "biografia": "Nemiah Emmanuel Simms è nato a Manchester, in Inghilterra, ed è cresciuto nella zona di Gorton. Sua madre e suo zio erano beatmaker e suo padre era un cantante reggae e bashment. Simms è di origini giamaicane.",
+            "ImgArtista": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\nemzzz.jpg"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "album":[
+        {
+            "nome":"Astroworld",
+            "ascolti": 10421736690,
+            "canzoni":["Stargazing", "Carousel", "Sicko Mode", "R.I.P Screw", "Stop Trying To Be God", "No Bystanders", "Skeletons", "Wake Up", "5% Tint", "NC-17", "Astrothunder", "Yosemite", "Can't Say", "Who? What!", "Butterfly Effect", "Houstonfornication", "Coffee Bean"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\astroworld.webp"
+        },
+        {
+            "nome":"I NEVER LIKED YOU",
+            "ascolti": 3052262761,
+            "canzoni":["712PM", "I'm Dat N****", "Keep It Burnin", "For a Nut", "Puffin On Zootiez", "Gold Stacks", "Wait for U", "Love You Better", "Massaging Me", "Chickens", "We Just Wanna Get High", "Voodoo", "Holy Ghost", "The Way Things Going", "I'm The One", "Back To The Basics", "No Security", "Like Me", "Affiliated", "Stayed Down", "Worst Day", "Just The Beginning"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\ineverlikedyou.webp"
+        },
+        {
+            "nome":"a Gift & a Curse",
+            "ascolti": 5338203947,
+            "canzoni":["back at it", "bottom", "ca$h $hit", "idk nomore", "south to west", "too easy", "poochie grown", "P power", "Baby Birkin", "Drip or Drown", "DOLLAZ ON MY HEAD", "MET GALA", "Pedestrian", "Mistress", "Top off", "Sold Out Dates", "alright", "bread & butter", "back to the moon", "paybach", "turned your back", "i was just thinking", "Banking On Me", "Hot", "Ski", "Oh Okay", "Pushin P", "fukumean", "rodeo dr", "Who You Foolin", "missing me"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\aGift&aCurse.webp"
+        },
+        {
+            "nome":"23 6451",
+            "ascolti": 1009672770,
+            "canzoni":["0ffline", "come fa1", "2ollipop", "fuck 3x", "scuol4", "5olo", "6ich remix", "blun7 a swishland", "m8nstar", "oh 9od", "gua10", "parano1a k1d", "m12ano", "occh1 purpl3", "no14", "ch1 5ei te", "7rapper ma1", "8rosk1", "bubb1e 9um", "pers0na2"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\leBasi.jpg"
+        },
+        {
+            "nome":"SIRIO",
+            "ascolti": 1058155854,
+            "canzoni":["CENERE", "OV3RTOURE", "ALIBI", "MOLOTOV", "SOGNI D'ORO", "BUGIA", "CINEMA", "PIOVE", "PANICO", "JEFE", "TOPBOY", "PUTO", "SENZA RUMORE", "NESSUNO", "3 PALI", "USICTO DI GALERA", "NULLA DI", "REPLAY"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\sirio.jfif"
+        },
+        {
+            "nome":"Rockstar",
+            "ascolti": 919883651,
+            "canzoni":["Popstar", "Uh Ah Hey", "Happy Birthday", "Cupido", "XNX", "Serpente a Sonagli", "Pablo", "Rockstar", "Ricchi X Sempre", "Uber", "Leggenda", "Bancomat", "Sciroppo", "20 Collane"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\rockstar.jpg"
+        },
+        {
+            "nome":"Do Not Disturb",
+            "ascolti": 388634119,
+            "canzoni":["REFLECTION", "ETA", "PTSD", "L's", "DOOM", "STAR SIGN", "NEED YOU", "REASSURANCE", "VENICE", "DND", "MONEY AND VIBES", "IT'S US", "I KNOW YOU CARE", "MAYFAIR", "GET MONEY"],
+            "coverAlbum":"C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\doNotDisturb.png"
+        }
+    ]
+}

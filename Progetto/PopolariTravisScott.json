@@ -1,0 +1,34 @@
+{
+    "popolari": [
+        {
+            "titolo":"FE!N",
+            "durata":"3:11",
+            "ascolti": 1314212891,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\fein.jpg"
+        },
+        {
+            "titolo":"goosebumps",
+            "durata":"4:03",
+            "ascolti": 2844269496,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\goosebumps.jfif"
+        },
+        {
+            "titolo":"Open Arms (feat. Travis Scott)",
+            "durata":"3:59",
+            "ascolti": 777012077,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\openarms.jpg"
+        },
+        {
+            "titolo":"SIKO MODE",
+            "durata":"5:12",
+            "ascolti": 2378213474,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\astroworld.webp"
+        },
+        {
+            "titolo":"HIGHEST IN THE ROOM",
+            "durata":"2:55",
+            "ascolti": 2023812894,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\highestintheroom.png"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "popolari": [
+        {
+            "titolo":"s!r!",
+            "durata":"3:57",
+            "ascolti": 124925865,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\siri.webp"
+        },
+        {
+            "titolo":"Dimmi Che C'è",
+            "durata":"3:02",
+            "ascolti": 65206845,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\dimmiche.jfif"
+        },
+        {
+            "titolo":"ABC (feat. Tony Boy & thasup)",
+            "durata":"3:16",
+            "ascolti": 28081261,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\abc.jfif"
+        },
+        {
+            "titolo":"3uphon (feat. Tony Effe & thasup)",
+            "durata":"3:15",
+            "ascolti": 37087031,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\x2vr.jpg"
+        },
+        {
+            "titolo":"SUPREME - L'ego (feat. Sfera Ebbasta & thasup)",
+            "durata":"3:43",
+            "ascolti": 104146260,
+            "imgCanzone": "C:\\DatiAllievo\\Fabio Koffel\\M318\\Progetto\\Progetto\\Resources\\Images\\supremeego.jpg"
+        }
+    ]
+}
